@@ -1,0 +1,30 @@
+[
+  {
+    "key": "Username",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Username",
+      "required": true
+    }
+  },
+  {
+    "key": "Password",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Password",
+      "type": "password",
+      "required": true
+    }
+  },
+  {
+    "key": "BaseUrl",
+    "type": "input",
+    "defaultValue": "https://<tenant>.swp.nl:8800",
+    "templateOptions": {
+      "label": "BaseUrl",
+      "required": true
+    }
+  }
+]
